@@ -1,0 +1,81 @@
+.container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  background: -webkit-linear-gradient(top, #91ff00b6 10%, #025314 90%);
+  padding: 7vw 5vw 7vw 1vw;
+}
+
+.data-inicio,
+.data-fim,
+.nome-operador,
+.form-pesquisar {
+  margin-right: 2px;
+  padding: 5px;
+  font-weight: bold;
+}
+
+label {
+  font-size: 15px;
+  margin-right: 10px;
+}
+
+input[type="date"],
+input[type="text"] {
+  width: 150px;
+  height: 30px;
+  font-size: 14px;
+  padding: 5px 10px;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 20px;
+}
+
+button {
+  width: 175px;
+  height: 40px;
+  font-size: 18px;
+  font-weight: bolder;
+  color: rgb(255, 255, 255);
+  background-color: #1201af;
+  border: outset;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #012b58;
+}
+
+.saldo {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  padding: 5px;
+  width: 100%;
+}
+
+table {
+  position: absolute;
+  top: 100%;
+  left: 10px;
+  right: 0;
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  border: 1px solid rgb(0, 0, 0);
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: rgb(255, 255, 255);
+}
+
+tr:nth-child(even) {
+  background-color: #ffffff;
+}
